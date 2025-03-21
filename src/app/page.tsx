@@ -1,5 +1,6 @@
 import { SignedIn,SignedOut,SignInButton,UserButton,SignUpButton } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
+import CreatePost from "@/components/CreatePost"; // Adjust the path as needed
 import { currentUser } from "@clerk/nextjs/server";
 
 export default async function Home() {
